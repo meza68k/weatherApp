@@ -1,0 +1,11 @@
+header {
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+}
+main {
+    display: inline-flex;
+}

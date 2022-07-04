@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head> 
+
+<body>
+    <header> 
+      <h1>Weather</h1>
+    </header>
+    <main>
+        <div id="cityBox" class="container">
+            <div id="srchCity">
+                <p>Search for City:</p>
+                <input placeholder="Dallas" id="srchBar" type="text">
+                <button id="srchBtn">Search</button>
+            </div>
+            <div id="srchHistory">
+                <ul id="historyList">
+                    <li class="cityList">dallas</li>
+                </ul>
+            </div>
+        </div>
+        <div id="forecastBox">
+            <div id="currentForecast">
+            <p id="cityDate">Dallas (7/04/2022) </p>
+            <p>Temp: <span id="temp0"></span></p>
+            <P>Wind: <span id="wind0"></span></P>
+            <p>Humidity: <span id="humidity0"></span></p>
+            <p>UV Index: <span id="uvIndex0"></span></p>
+            </div>
+            <div class="container">
+              <p>5-Day ForeCast:</p>
+              <div class="row">
+                <div class="col" id="day1">
+                    <p>Temp: <span id="temp1"></span></p>
+                    <P>Wind: <span id="wind1"></span></P>
+                    <p>Humidity: <span id="humidity1"></span></p>
+                    <p>UV Index: <span id="uvIndex1"></span></p>
+                </div>
+                <div class="col" id="day2">
+                    <p>Temp: <span id="temp2"></span></p>
+                    <P>Wind: <span id="wind2"></span></P>
+                    <p>Humidity: <span id="humidity2"></span></p>
+                    <p>UV Index: <span id="uvIndex2"></span></p></div>
+                <div class="col" id="day3">
+                    <p>Temp: <span id="temp3"></span></p>
+                    <P>Wind: <span id="wind3"></span></P>
+                    <p>Humidity: <span id="humidity3"></span></p>
+                    <p>UV Index: <span id="uvIndex3"></span></p></div>
+                <div class="col" id="day4">
+                    <p>Temp: <span id="temp4"></span></p>
+                    <P>Wind: <span id="wind4"></span></P>
+                    <p>Humidity: <span id="humidity4"></span></p>
+                    <p>UV Index: <span id="uvIndex4"></span></p></div>
+                <div class="col" id="day5">
+                    <p>Temp: <span id="temp5"></span></p>
+                    <P>Wind: <span id="wind5"></span></P>
+                    <p>Humidity: <span id="humidity5"></span></p>
+                    <p>UV Index: <span id="uvIndex5"></span></p></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script href="./assets/js/weather.js"></script>
+</body>
+</html>
